@@ -1,0 +1,37 @@
+﻿Build started 14.05.2017 17:32:58.
+     1>Project "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\calc\calc.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\Release\".
+       InitializeBuildStatus:
+         Creating "Release\calc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\программы\msvs2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp parserText.cpp
+         main.cpp
+     1>main.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+         parserText.cpp
+     1>parserText.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>parserText.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>parserText.cpp(133): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>parserText.cpp(137): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>parserText.cpp(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>parserText.cpp(145): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>parserText.cpp(152): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>parserText.cpp(156): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>parserText.cpp(160): warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+     1>parserText.cpp(164): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         D:\программы\msvs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\Release\calc.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\calc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\Release\calc.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\Release\calc.lib" /MACHINE:X86 Release\main.obj
+         Release\parserText.obj
+         Generating code
+         Finished generating code
+         calc.vcxproj -> C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\Release\calc.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\Release\calc.exe;#1" /manifest Release\calc.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\calc.unsuccessfulbuild".
+         Touching "Release\calc.lastbuildstate".
+     1>Done Building Project "C:\Users\Рустам\Documents\Visual Studio 2010\Projects\myproject\calc\calc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24
