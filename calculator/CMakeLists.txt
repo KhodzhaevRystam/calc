@@ -1,0 +1,22 @@
+SET( PROJECT calculator)
+project( ${PROJECT} )
+
+SET (HEADERS
+	parserText.h
+)
+
+SET (SOURCE_ROOT ${${PROJECT}_SOURCE_DIR})
+
+AUX_SOURCE_DIRECTORY(${SOURCE_ROOT} SOURCES)
+
+include_directories(
+	${SOURCE_ROOT}
+)
+#SET(BUILD_SHARED_LIBS ON)
+
+add_executable (${PROJECT} ${HEADERS} ${SOURCES})
+#add_library( ${PROJECT} ${HEADERS} ${SOURCES} )
+
+#TARGET_LINK_LIBRARIES(
+#	${PROJECT}
+#)
