@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.6)
 
 project (Calc)
 
@@ -31,7 +31,6 @@ add_definitions(
 	-D_CRT_SECURE_NO_WARNINGS
 )
 
-#add_subdirectory (main)
 add_subdirectory (calculator)
 
 

@@ -56,7 +56,11 @@ int main()
 		if (value == FLT_MAX)
 			cout<<"Не корректно введенные данные.\nНет соответствия количества открытых и закрытых скобок"<<endl;	
 		else
+		{
+			cout.setf(ios::fixed);
+			cout.precision(2);
 			cout<<"Результат: " << value<<endl;
+		}
 
 		cout<<"Ввести новое выражение? (да - yes)"<<endl;
 		string cont = "";

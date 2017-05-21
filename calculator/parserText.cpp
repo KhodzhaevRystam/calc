@@ -13,7 +13,7 @@ ParserText::~ParserText()
 // получение значения выражения из входящей строки
 float ParserText::getValue(string text)
 {
-	float value = 0;
+	float value = FLT_MAX;
 	std::vector<string> lexems;
 
 	string curText = text;
@@ -66,7 +66,7 @@ float ParserText::getValue(string text)
 float ParserText::getValueToLexem(string text)
 {
 	// инициализация переменной
-	float value = 0;
+	float value = FLT_MAX;
 	std::vector<string> lexems;
 
 	string curText = text;
